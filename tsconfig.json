@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "charset": "utf-8",
+    "declaration": true,
+    "lib": [
+      "es2016"
+    ],
+    "outDir": "lib"
+  },
+  "include": [
+    "src"
+  ]
+}

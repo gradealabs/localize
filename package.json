@@ -1,0 +1,34 @@
+{
+  "name": "@gradealabs/localize",
+  "version": "0.0.1",
+  "description": "A simple localization library",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "make test",
+    "prepublish": "make build",
+    "build": "make build",
+    "clean": "make clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gradealabs/localize.git"
+  },
+  "keywords": [],
+  "author": "Darren Schnare <dschnare@gradealabs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gradealabs/localize/issues"
+  },
+  "homepage": "https://github.com/gradealabs/localize#readme",
+  "devDependencies": {
+    "@types/mocha": "5.2.4",
+    "@types/node": "10.5.1",
+    "mocha": "5.2.0",
+    "ts-node": "7.0.0",
+    "typescript": "2.9.2"
+  }
+}
