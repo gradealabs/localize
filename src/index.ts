@@ -29,7 +29,7 @@ export class Localize {
   constructor ({ nativeLocale = 'en' } = {}) {
     this._locale = nativeLocale
     Object.defineProperty(this, 'nativeLocale', {
-      value: nativeLocale
+      get: () => nativeLocale
     })
   }
 
