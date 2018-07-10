@@ -21,7 +21,7 @@ describe('StaticLocalize', function () {
     })
   })
 
-  describe('#isSupportsLocale', function () {
+  describe('#isLocaleSupported', function () {
     it('should return true if the locale is supported', function () {
       const locales = { fr: { 'Hello!': 'Bonjour!' } }
       const supportedLocale = 'fr'
